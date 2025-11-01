@@ -1,4 +1,3 @@
-# scripts/codigo_5.3.3_corregido.py
 import xml.etree.ElementTree as ET
 import glob
 import os
@@ -11,7 +10,7 @@ def xml_to_yolo_bbox(bbox, w, h):
     height = (bbox[3] - bbox[1]) / h
     return [x_center, y_center, width, height]
 
-# Configuración de directorios
+
 input_dir = "../datasets/ACID_7000/Annotations"
 output_dir = "../datasets/ACID_7000/labels" 
 image_dir = "../datasets/ACID_7000/JPEG/images"
