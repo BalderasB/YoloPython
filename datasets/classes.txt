@@ -1,5 +1,7 @@
 [
+  "balloon",
+  "zebra",
   "person",
-  "car",
-  "dog"
+  "building",
+  "signboard"
 ]

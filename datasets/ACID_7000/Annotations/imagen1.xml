@@ -1,4 +1,3 @@
-<!-- Guarda como: datasets/ACID_7000/Annotations/imagen1.xml -->
 <annotation>
 	<folder>images</folder>
 	<filename>imagen1.jpg</filename>
@@ -7,33 +6,129 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>800</width>
-		<height>600</height>
+		<width>960</width>
+		<height>768</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
+
+	
 	<object>
-		<name>person</name>
+		<name>balloon</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>100</xmin>
-			<ymin>150</ymin>
-			<xmax>300</xmax>
-			<ymax>450</ymax>
+			<xmin>380</xmin>
+			<ymin>100</ymin>
+			<xmax>600</xmax>
+			<ymax>420</ymax>
 		</bndbox>
 	</object>
+
+	
 	<object>
-		<name>car</name>
+		<name>zebra</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>50</xmin>
+			<ymin>550</ymin>
+			<xmax>150</xmax>
+			<ymax>680</ymax>
+		</bndbox>
+	</object>
+
+	<object>
+		<name>zebra</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>120</xmin>
+			<ymin>540</ymin>
+			<xmax>220</xmax>
+			<ymax>670</ymax>
+		</bndbox>
+	</object>
+
+	<object>
+		<name>zebra</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>200</xmin>
+			<ymin>530</ymin>
+			<xmax>300</xmax>
+			<ymax>660</ymax>
+		</bndbox>
+	</object>
+
+	<object>
+		<name>zebra</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>280</xmin>
+			<ymin>540</ymin>
+			<xmax>380</xmax>
+			<ymax>670</ymax>
+		</bndbox>
+	</object>
+
+	<object>
+		<name>zebra</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>400</xmin>
-			<ymin>200</ymin>
-			<xmax>600</xmax>
-			<ymax>350</ymax>
+			<ymin>560</ymin>
+			<xmax>500</xmax>
+			<ymax>680</ymax>
 		</bndbox>
 	</object>
+
+	<object>
+		<name>zebra</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>520</xmin>
+			<ymin>560</ymin>
+			<xmax>620</xmax>
+			<ymax>680</ymax>
+		</bndbox>
+	</object>
+
+	<object>
+		<name>zebra</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>640</xmin>
+			<ymin>550</ymin>
+			<xmax>740</xmax>
+			<ymax>670</ymax>
+		</bndbox>
+	</object>
+
+	<object>
+		<name>zebra</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>760</xmin>
+			<ymin>540</ymin>
+			<xmax>860</xmax>
+			<ymax>660</ymax>
+		</bndbox>
+	</object>
+
 </annotation>
